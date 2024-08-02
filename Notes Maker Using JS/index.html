@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.goo
+gleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <div class="navbar">
+        <h1>Notes Maker</h1>
+    </div>
+    
+    <div class="container">
+        <div class="book-container">
+            <h2>Hey There</h2>
+            <h5>Thank you for using this</h5>
+            <p>You can delete this and add your own notes</p>
+            <button id="delete" onclick="deletebtn(event)">Delete</button>
+        </div>
+        </div>
+
+    
+
+    <div class="overlay">
+
+        <div class="box">
+
+            <h2>New Note</h2>
+            <form>
+                <input type="text" id="title" placeholder="Note Title">
+                <input type="text" id="author" placeholder="Task">
+                <textarea placeholder="Short Description" id="description"></textarea>
+                <button id="add-book">Add</button>
+                <button id="cancel-book">Cancel</button>
+            </form>
+
+        </div>
+
+    </div>
+    
+    
+    <button class="addbtn" id="addbtn">
+        +
+    </button>
+
+    <script src="script.js">    </script>
+
+
+</body>
+</html>
